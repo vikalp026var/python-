@@ -1,0 +1,8 @@
+x=input("Enter yor choice :")
+print(x)
+print("Enter the first number:")
+y=input()
+print("Enter the second number:")
+z=input()
+g=int(y)+int(z)
+print("your sum is ",int (y)+int(z))

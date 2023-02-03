@@ -1,0 +1,36 @@
+print("Welcome to Vikalp calculator")
+print("---------------------------------------")
+while(1):
+     print ("Enter two numbers")
+     x=int(input())
+     y=int(input())
+     print("Enter the operator")
+     print(" 1.Add")
+     print("2.subtract")
+     print("3.multiply")
+     print("4.Divide")
+     print("5.exit")
+     z=int(input())
+     if z==1:
+         print("Add")
+         print("++++")
+         d=int(x)+int(y)
+         print("your answer is ",d)
+     elif z==2:
+         print("Subtarct")
+         print("---------")
+         d=int(x)-int(y)
+         print("your answer is",d)
+     elif z==3:
+         print("Multiply")
+         print("*********")
+         d=int(x)*int(y)
+         print("your answer is",d)
+     elif z==4:
+         print("Divide")
+         print("///////")
+         d=int(x)/int(y)
+         print("your answer is",d)
+     else :
+         print("You terminate your program succesfully ")
+         exit()
